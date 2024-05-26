@@ -17,7 +17,7 @@ async function init() {
   await admin.createTopics({
     topics: [
       {
-        topic: "rider-updates",
+        topic: "riders-location-update",
         numPartitions: 2,
       },
     ],
